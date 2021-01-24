@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+/* 
+* {
+	box-sizing: border-box;
+} */
+
+body {
+	/* width: 100%; */
+	background: #f6f5f7;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.inputfieldsbook{
+  margin-top: 25px;
+  margin-bottom: 15px;  
+}
+
+.sideimgbook{
+	position: absolute;    
+	left: 100px;
+	top: 250px;
+    height: 60%;
+    width: 40%;
+}
+
+h1 {
+	font-weight: bold;
+	margin: 10;
+}
+
+button.booknowbook {
+	border-radius: 20px;
+	border: 1px solid  blue;
+	background-color: blue;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+}
+
+button:active {
+	transform: scale(0.95);
+}
+
+button:focus {
+	outline: none;
+}
+
+form {
+    background-color: #FFFFFF;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 50px;
+    text-align: center;
+}
+
+input {
+	background-color: #eee;
+	border: none;
+	padding: 12px 15px;
+	margin: 8px 0;
+	width: 100%;
+}
+
+.form-containerbook {
+	position: relative;
+	top: 0;
+    transition: all 0.6s ease-in-out;
+    overflow: hidden;
+	width: 568px;
+    margin-left: 850px;
+	margin-top: 150px;
+	margin-bottom: 50px;
+}
+
+.chooseacar{
+	margin-top: 10px;
+}
+
+#cars{
+	margin-top: 10px;
+	width: 150px;
+	height: 30px;
+}
+
+#cars optgroup{
+	font-size: 18px;
+}
+
+#cars option{
+	font-size: 15px;
+}
+
+
+.slidecontainerbf {
+	position: absolute;
+	top: 740px;
+	width: 30%;
+	left: 220px;
+  }
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+}

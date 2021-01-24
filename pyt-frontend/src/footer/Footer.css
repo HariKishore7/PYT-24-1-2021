@@ -1,0 +1,50 @@
+.footer{
+  background-color: black;
+  color: white;
+  display: flex;
+  flex: right;
+  position: relative;
+  padding-bottom: 80px;
+  padding: 15px;
+}
+
+.sidebar1{
+  padding: 20px;
+}
+
+.sidebar1 div{
+  margin-top: 15px;
+}
+
+.discover div{
+  font-size: 30px;
+  margin-top: 35px;
+  margin-left: 130px;
+}
+
+.events div{
+  font-size: 30px;
+  margin-top: 35px;
+  margin-left: 200px;
+}
+
+.blog div{
+  font-size: 30px;
+  margin-top: 35px;
+  margin-left: 200px;
+}
+
+.details{
+  font-size:30px;
+}
+
+.hrline{
+  display: flex;
+  background-color: black;
+  margin-bottom: 20px;
+  padding-bottom: 50px;
+}
+
+.hrline p{
+  margin-left: 46%;
+}

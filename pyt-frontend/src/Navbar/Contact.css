@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css');
+body{
+    font-family: "Lato",sans-serif;
+    background-color: white;
+}
+
+.glocation{
+    border: 3px solid black;
+}
+
+.contactus{
+    text-align: center;
+    color: #32289B;
+}
+
+.markers{
+    font-size: 50px;
+    margin-top: 15px;
+}
+
+.contactus span{
+    /* color: #db1d4b; */
+    color: #ec336b
+}
+.contactpara{
+    text-align: center;
+    color: #888;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: .25in;
+    padding: 20px;
+}
+.contactdetails{
+    text-align: center;
+
+}
+
+.addressinfo{
+    color: #32289B;
+}
+
+.details p{
+    color:#23527c;
+}
+
+a, a:hover{
+    text-decoration: none;
+}

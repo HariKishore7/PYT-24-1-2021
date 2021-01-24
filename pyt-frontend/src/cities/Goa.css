@@ -1,0 +1,27 @@
+.goa{
+    position: relative;
+    width: 100%;  
+    height: 700px; 
+} 
+
+.goaname{
+    position:absolute;
+    top:250px;
+    left:750px;
+    font-size:80px;
+    color:blue;
+    text-align:center;
+}
+
+.infogoa{
+    position: relative;
+    /* font-family: sans-serif; */
+    font-size: 15px;
+    
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.booknow{
+    float: right;
+}

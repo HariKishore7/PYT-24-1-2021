@@ -1,0 +1,85 @@
+body{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.abtimg{
+    width: 1515px;
+}
+/* .sidebar{
+    display: flex;
+    flex-direction: row;
+} */
+
+.whoweare{
+    color: #f36b63
+}
+/* .carimg{
+    width: 700px;
+    height: 600px;
+    float: right;
+} */
+
+.mission{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.aboutdesc{
+    font-size: 30px;
+    letter-spacing: normal;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.how{
+    color: #f36b63;
+    margin-top: 30px;
+    /* font-size: 25px; */
+}
+.howto{
+    color: white;
+}
+
+.tips{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-left: 75px;
+}
+
+.tipstab{
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.names{
+    position: relative;
+    margin-top: 50px;
+}
+.card{
+    background-color: #ee463d;
+    margin-top: 15px;
+    margin-right: 25px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.detail{
+    color: white;
+    background-color: #e03e35;
+    padding: 5px;
+    border-radius: 10px;
+    width: 400px;
+    margin: 15px;
+}
+
+.card2{
+    color: white;
+    margin: 15px;
+    padding: 15px;
+    font-size: 18px;
+}
