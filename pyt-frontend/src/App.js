@@ -86,7 +86,7 @@ export default function App() {
       credentials: "include",
     }).then((r) => {
       if (r.ok) {
-        // console.log("Logging in kishorek");
+        console.log("Logging in kishorek");
         setLoggedIn(true);
         return { success: true };
       } else {
@@ -121,25 +121,24 @@ export default function App() {
   
   return (
     <>
-      <Router>
-        
+      <Router>        
         <Switch>
-          <Route path="/h1">
+          <Route path="/startpage">
             {loggedIn ? (
-              <Redirect  to="/home"/>
+              <Redirect from="/"  to="/home"/>
             ) : showLogin ? (
-              <Redirect  to="/login"/>
+              <Redirect from="/"  to="/login"/>
             ) : 
-            <Redirect to ="/welcome"/>
+            <Redirect from="/" to ="/welcome"/>
             }             
           </Route>
-          <Route path="/login">
+          <Route exact path="/login">
             <Login loginHandler={loginHandler} signupHandler={signupHandler} error={error} />
           </Route>
-          <Route path ="/welcome">
+          <Route exact path ="/welcome">
             <Welcome handler={updatedState}/>
           </Route>
-          <Route path ="/home">
+          <Route exact path ="/home">
             <HomePage logoutHandler={logoutHandler}/>
           </Route>
           <Route exact path="/Hyderabad">
