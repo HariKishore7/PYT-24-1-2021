@@ -13,11 +13,13 @@ export default function Welcome(props) {
         <div className="welname">
           Find the best place you want and Explore the places wherever you go
         </div>
-        <link to="/">
+        <Router>
+        <Link to="/login">
           <button className="getstarted" onClick={props.handler}>
             Get Started
           </button>
-        </link>
+        </Link>
+        </Router>
     </div>
   );
 }
